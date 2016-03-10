@@ -45,7 +45,7 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(/app/assets/images/intro-bg.jpg) no-repeat center center;
+    background: url('intro-bg.jpg') no-repeat center center;
     background-size: cover;
 }
 

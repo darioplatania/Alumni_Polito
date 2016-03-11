@@ -1,7 +1,10 @@
+<!-- La new.html l'ho messa in index quindi questa non serve più -->
+
+<!--
 <div align="center">
   <h3>Send A message to Us</h3>
 
-  <%= simple_form_for contact.new, :html => {:class => 'form-horizontal' } do |f| %>
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
     <%= f.input :name, :required => true %>
     <%= f.input :email, :required => true %>
     <%= f.input :message, :as => :text, :required => true %>
@@ -14,3 +17,4 @@
     </div>
   <% end %>
 </div>
+-->

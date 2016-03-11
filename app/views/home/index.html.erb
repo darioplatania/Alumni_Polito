@@ -137,6 +137,29 @@
                 <div class="col-lg-12">
                     <h1>Form Section</h1>
                     <h3>Qui puoi richiedere il tuo diploma</h3>
+                    <div align="center">
+                      <h3>Send A message to Us</h3>
+
+                        <%= simple_form_for (Contact.new) do |f| %>                      
+                        <%= f.input :nome, :required => true %>
+                        <%= f.input :cognome, :required => true %>
+                        <%= f.input :annodilaurea, :required => true %>
+                        <%#= f.input :data, :required => true %>
+                        <%= f.input :indirizzo, :required => true %>
+                        <%= f.input :cap, :required => true %>
+                        <%= f.input :citta, :required => true %>
+                        <%= f.input :telefono%>
+                        <%= f.input :cellulare%>
+                        <%= f.input :email, :required => true %>
+                        <%= f.input :message, :as => :text, :required => true %>
+
+                        <div>
+                          </br>
+                          <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+                        </div>
+                      <% end %>
+                    </div>
+
                 </div>
             </div>
         </div>

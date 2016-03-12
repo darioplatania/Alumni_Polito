@@ -10,6 +10,9 @@ class ModulosController < ApplicationController
   # GET /modulos/1
   # GET /modulos/1.json
   def show
+    respond_to do |format|
+    format.html { redirect_to :controller => 'home', :action => 'index' }
+    end
   end
 
   # GET /modulos/new
@@ -19,6 +22,9 @@ class ModulosController < ApplicationController
 
   # GET /modulos/1/edit
   def edit
+    respond_to do |format|
+    format.html { redirect_to :controller => 'home', :action => 'index' }
+    end
   end
 
   # POST /modulos

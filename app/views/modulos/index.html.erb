@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Modulos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Cognome</th>
+      <th>Annolaurea</th>
+      <th>Datanascita</th>
+      <th>Luogo</th>
+      <th>Indirizzo</th>
+      <th>Cap</th>
+      <th>Citta</th>
+      <th>Telefono</th>
+      <th>Cellulare</th>
+      <th>Email</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @modulos.each do |modulo| %>
+      <tr>
+        <td><%= modulo.nome %></td>
+        <td><%= modulo.cognome %></td>
+        <td><%= modulo.annolaurea %></td>
+        <td><%= modulo.datanascita %></td>
+        <td><%= modulo.luogo %></td>
+        <td><%= modulo.indirizzo %></td>
+        <td><%= modulo.cap %></td>
+        <td><%= modulo.citta %></td>
+        <td><%= modulo.telefono %></td>
+        <td><%= modulo.cellulare %></td>
+        <td><%= modulo.email %></td>
+        <td><%= link_to 'Show', modulo %></td>
+        <td><%= link_to 'Edit', edit_modulo_path(modulo) %></td>
+        <td><%= link_to 'Destroy', modulo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Modulo', new_modulo_path %>

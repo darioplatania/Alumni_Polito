@@ -1,0 +1,119 @@
+<style type="text/css">
+  #divA {
+    padding-top: 20px;
+  }
+  #divB {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<div>
+  <%= form_for(@modulo) do |f| %>
+    <% if @modulo.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@modulo.errors.count, "error") %> prohibited this modulo from being saved:</h2>
+
+        <ul>
+        <% @modulo.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div id="divA">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%#= f.label :telefono_fisso_referente%>
+          <%= f.label :nome %><br>
+          <%= f.text_field :nome,class:"form-control",placeholder:"Nome"%>
+          &nbsp;
+        </div>
+        <div class="col-md-4">
+          <%#= f.label :cellulare_referente%>
+          <%= f.label :cognome %><br>
+          <%= f.text_field :cognome,class:"form-control",placeholder:"Cognome"%>
+          &nbsp;
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%#= f.label :telefono_fisso_referente%>
+          <%= f.label :anno_di_laurea %><br>
+          <%= f.text_field :annolaurea,class:"form-control",placeholder:"Anno Di Laurea"%>
+          &nbsp;
+        </div>
+        <div class="col-md-4">
+          <%#= f.label :cellulare_referente%>
+          <%= f.label :titolo_di_studio %><br>
+          <%#= f.date_select :datanascita,class:"form-control",placeholder:"Data di Nascita"%>
+          &nbsp;
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%#= f.label :telefono_fisso_referente%>
+          <%= f.label :data_di_nascita %><br>
+          <%= f.text_field :annolaurea,class:"form-control",placeholder:"Data di Nascita"%>
+          &nbsp;
+        </div>
+        <div class="col-md-4">
+          <%#= f.label :cellulare_referente%>
+          <%= f.label :luogo %><br>
+          <%= f.text_field :luogo,class:"form-control",placeholder:"Luogo di Nascita"%>
+          &nbsp;
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%#= f.label :telefono_fisso_referente%>
+          <%= f.label :indirizzo %><br>
+          <%= f.text_field :indirizzo,class:"form-control",placeholder:"Indirizzo"%>
+          &nbsp;
+        </div>
+        <div class="col-md-4">
+          <%#= f.label :cellulare_referente%>
+          <%= f.label :cap %><br>
+          <%= f.text_field :cap,class:"form-control",placeholder:"CAP"%>
+          &nbsp;
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%#= f.label :telefono_fisso_referente%>
+          <%= f.label :citta %><br>
+          <%= f.text_field :citta,class:"form-control",placeholder:"Citta'"%>
+          &nbsp;
+        </div>
+        <div class="col-md-4">
+          <%#= f.label :cellulare_referente%>
+          <%= f.label :telefono %><br>
+          <%= f.text_field :telefono,class:"form-control",placeholder:"Telefono"%>
+          &nbsp;
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%#= f.label :cellulare_referente%>
+          <%= f.label :cellulare %><br>
+          <%= f.text_field :cellulare,class:"form-control",placeholder:"Cellulare"%>
+          &nbsp;
+        </div>
+        <div class="col-md-4">
+          <%#= f.label :telefono_fisso_referente%>
+          <%= f.label :email %><br>
+          <%= f.text_field :email,class:"form-control",placeholder:"E-Mail"%>
+          &nbsp;
+        </div>
+        <div class="row" id="divB" style="text-align:center">
+          <div class="col-md-8 col-md-offset-2">
+            <div id="divB">
+              <%= f.submit "Invia Modulo",:class => "btn btn-primary" %>
+            </div>
+          </div>
+        </div>
+      </div>
+  <% end %>
+</div>

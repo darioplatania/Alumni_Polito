@@ -44,7 +44,8 @@
         </div>
         <div class="col-md-4">
           <%= f.label :titolo_di_studio %><br>
-          &nbsp;
+          <%= f.radio_button :titolostudio, "Ingegnere" %> Ingegnere &nbsp;
+          <%= f.radio_button :titolostudio, "Architetto" %> Architetto
         </div>
       </div>
       <div class="row">

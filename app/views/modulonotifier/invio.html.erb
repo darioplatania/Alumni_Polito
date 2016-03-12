@@ -9,6 +9,10 @@ L'utente <b><%= @modulo.nome %> <%= @modulo.cognome %></b> ha compilato il modul
 <br>
 <b>Cognome:</b> <%= @modulo.cognome %>
 <br>
+<% if !@modulo.titolostudio.blank? %>
+<b>Titolo di Studio:</b> <%= @modulo.titolostudio %>
+<% end %>
+<br>
 <b>Anno di Laurea:</b> <%= @modulo.annolaurea %>
 <br>
 <b>Data di Nascita:</b> <%= @modulo.datanascita %>

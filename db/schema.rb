@@ -11,22 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160312173022) do
+ActiveRecord::Schema.define(version: 20160312193518) do
 
   create_table "modulos", force: :cascade do |t|
     t.string   "nome",        limit: 255
     t.string   "cognome",     limit: 255
-    t.float    "annolaurea",  limit: 24
-    t.date     "datanascita"
+    t.string   "annolaurea",  limit: 255
     t.string   "luogo",       limit: 255
     t.string   "indirizzo",   limit: 255
-    t.integer  "cap",         limit: 4
+    t.integer  "cap",         limit: 8
     t.string   "citta",       limit: 255
-    t.float    "telefono",    limit: 24
-    t.float    "cellulare",   limit: 24
+    t.integer  "telefono",    limit: 8
+    t.integer  "cellulare",   limit: 8
     t.string   "email",       limit: 255
     t.datetime "created_at",              null: false
     t.datetime "updated_at",              null: false
+    t.string   "datanascita", limit: 255
   end
 
 end

@@ -20,4 +20,43 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  errors:
+    format: "%{message}"
+
+  activerecord:
+    errors:
+      models:
+        modulo:
+          attributes:
+            nome:
+              blank: "Nome non può essere vuoto"
+              not_a_number: "Nome non può essere un numero"
+            cognome:
+              blank: "Cognome non può essere vuoto"
+              not_a_number: "Cognome non può essere un numero"
+            annolaurea:
+              blank: "Inserire l'anno di laurea"
+              not_a_number: "Anno di Laurea deve essere un numero."
+            datanascita:
+              blank: "Dati Personali - Data di Nascita non può essere vuoto"
+              invalid: "Dati Personali - Data di Nascita non ha un formato valido"
+            luogo:
+              blank: "Inserire il Comune di Nascita"
+            cap:
+              blank: "CAP non può essere vuoto"
+            citta:
+              blank: "Citta' non può essere vuoto"
+            telefono:
+              blank: "Telefono non può essere vuoto"
+              not_a_number: "Telefono deve essere un numero. N.B. Non inserire spazi tra le cifre"
+              too_short: "Telefono deve essere di almeno 8 cifre"
+              too_long: "Telefono non deve superare le 12 cifre"
+            cellulare:
+              blank: "Cellulare non può essere vuoto"
+              not_a_number: "Cellulare deve essere un numero. N.B. Non inserire spazi tra le cifre"
+              too_short: "Cellulare deve essere minimo di 9 cifre"
+              too_long: "Cellulare deve essere massimo di 11 cifre"
+            email:
+              blank: "Email non può essere vuoto"
+              too_long: "Email non deve superare i 255 caratteri"
+              invalid: "Email non ha un formato valido"

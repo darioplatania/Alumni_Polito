@@ -30,6 +30,16 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+<style type="text/css">
+  #divA {
+    padding-top: 20px;
+  }
+  #divB {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+</style>
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -136,7 +146,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Form Section</h1>
-                    <h3><%= link_to 'Qui puoi richiedere il tuo diploma', new_modulo_path %></h3>                  
+                    <h3>Qui puoi richiedere il tuo diploma</h3>
+                    <div class="row" id="divB" style="text-align:center">
+                      <div class="col-md-8 col-md-offset-2">
+                        <div id="divB">
+                          <%= link_to "Clicca qui",new_modulo_path, :class => "btn btn-default" %>
+                        </div>
+                      </div>
+                    </div>
             </div>
         </div>
     </section>

@@ -1,10 +1,18 @@
-<div class=form-header>
+<%#= link_to 'Back', modulos_path %>
+<div class=form-header2>
   <div class="panel-heading">
-    <h3 class="panel-title" align="center">Compila Modulo</h3>
+    <!--
+    <div class="col-sm-5 ">
+      <ul class="pager">
+        <li class="previous"><%=link_to'Indietro',root_url %></li>
+      </ul>
+    </div>
+  -->
+    <div class="col-md-8 col-md-offset-2">
+      <h3 class="panel-title" align="center">Compila Modulo</h3>
+    </div>
   </div>
   <div class="panel-body">
     <%= render 'form' %>
   </div>
 </div>
-
-<%#= link_to 'Back', modulos_path %>

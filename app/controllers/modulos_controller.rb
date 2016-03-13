@@ -35,7 +35,7 @@ class ModulosController < ApplicationController
     respond_to do |format|
       if @modulo.save
         Modulonotifier.invio(@modulo).deliver_later
-        format.html { redirect_to :controller => 'home', :action => 'index', alert: 'Modulo was successfully created.' }
+        format.html { redirect_to :controller => 'home', :action => 'index'}
         format.json { render :show, status: :created, location: @modulo }
       else
         format.html { render :new }

@@ -60,3 +60,13 @@ en:
               blank: "Email non può essere vuoto"
               too_long: "Email non deve superare i 255 caratteri"
               invalid: "Email non ha un formato valido"
+            assemblea:
+              blank: "Assemblea non può essere vuoto"
+            cerimonia:
+              blank: "Cerimonia non può essere vuoto"
+            accompagnatori:
+              blank: "Accompagnatori non può essere vuoto"
+            cena:
+              blank: "Cena non può essere vuoto"
+            i3p:
+              blank: "I3P non può essere vuoto"

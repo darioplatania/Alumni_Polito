@@ -76,6 +76,6 @@ class ModulosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def modulo_params
-      params.require(:modulo).permit(:nome, :cognome, :annolaurea, :datanascita, :luogo, :indirizzo, :cap, :citta, :telefono, :cellulare, :email, :titolostudio)
+      params.require(:modulo).permit(:nome, :cognome, :annolaurea, :datanascita, :luogo, :indirizzo, :cap, :citta, :telefono, :cellulare, :email, :titolostudio, :assemblea, :cerimonia, :accompagnatori, :cena, :i3p)
     end
 end

@@ -97,6 +97,56 @@
           &nbsp;
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%= f.label :assemblea %><br>
+          <%= f.radio_button :assemblea, "Si" %> Si &nbsp;
+          <%= f.radio_button :assemblea, "No" %> No
+        </div>
+        <div class="col-md-4">
+          <%= f.label :cerimonia %><br>
+          <%= f.radio_button :cerimonia, "Si" %> Si &nbsp;
+          <%= f.radio_button :cerimonia, "No" %> No
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%= f.label :numero_accompagnatori %> (Max 3 Accompagnatori)<br>
+          <%= f.text_field :accompagnatori,class:"form-control",placeholder:"Numero Accompagnatori"%>
+        </div>
+        <div class="col-md-4">
+          <%= f.label :numero_persone_per_cena %><br>
+          <%= f.text_field :cena,class:"form-control",placeholder:"Numero Persone per Cena"%>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <%= f.label :visita_incubatore_i3p %><br>
+          <%= f.text_field :i3p,class:"form-control",placeholder:"Numero Persone per visita Incubatore I3P"%>
+        </div>
+      </div>
+      <br><br>
+      <div class="col-md-8 col-md-offset-2">
+      <div class="panel panel-info">
+          <div class="panel-heading">
+              <h4 align="justify">Il <b>pagamento</b> relativo al ritiro della pergamena e per la partecipazione alla cena, <b>deve</b> essere effettuato sul seguente conto corrente:</h4>
+          </div>
+          <div class="panel-body">
+            <p class="serif" align="justify">IBAN: <b>IT 77 f 02008 01160 00000 2011125</b>
+            <p class="serif" align="justify">Intestato a: <b>ASSOCIAZIONE ING.ARCH EX ALLIEVI POLITECNICO DI TORINO</b></p>
+            <p class="serif" align="justify"><b>N.B.</b> La copia dell'avvenuto pagamento <b>deve</b> essere necessariamente inviata alla seguente E-Mail:
+            <br><b>segreteria.alumni@polito.it</b></p>
+
+          </div>
+      </div>
+    </div>
+
+
+
+
         <div class="row" id="divB" style="text-align:center">
           <div class="col-md-8 col-md-offset-2">
             <div id="divB">

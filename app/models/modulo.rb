@@ -10,6 +10,11 @@ class Modulo < ActiveRecord::Base
   validates :telefono, presence: true,allow_blank: true, numericality: true,length: {minimum: 8, maximum: 12}
   validates :cellulare, presence: true,allow_blank: true, numericality: true,length: {minimum: 8, maximum: 12}
   validate :telefono_or_cellulare
+  validates :assemblea, presence: true
+  validates :cerimonia, presence: true
+  validates :accompagnatori, presence: true
+  validates :cena, presence: true
+  validates :i3p, presence: true
 
   VALID_DATADINASCITA_REGEX = /\A(?:(?:([0-2][1-9]|[12]0|19)[\/\\\-. ]?(0[1-9]|1[0-2])|(29|30)[\/\\\-. ]?(0[13-9]|1[0-2])|(31)[\/\\\-. ]?(0[13578]|1[02]))[\/\\\-. ]?((?:19|20)[0-9]{2})|(29)[\/\\\-. ]?(02)[\/\\\-. ]?(19(?:[0][48]|[2468][048]|[13579][26])|20(?:[02468][048]|[13579][26])))\z/
   validates :datanascita, presence: true, format: { with: VALID_DATADINASCITA_REGEX }

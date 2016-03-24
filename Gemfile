@@ -23,8 +23,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'bootstrap-sass', '~> 3.3.3'
-gem 'bootstrap_form'
+#gem 'bootstrap-sass', '~> 3.3.3'
+#gem 'bootstrap_form'
+gem 'bootstrap-material-design'
 
 gem 'activeadmin', '~> 1.0.0.pre2'
 gem 'devise'

@@ -99,9 +99,7 @@ of those sections to manage the look and feel of the site. */
 /*FINE INSERIMENTO FATTO DA DARIO DALLA LANDING PAGE*/
 
 .about-section {
-    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
-
-    /*font-family: 'Brush Script MT', cursive;*/
+    font-family: 'Tahoma';
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -110,9 +108,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .program-section {
-    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
-
-    /*font-family: 'Brush Script MT', cursive;*/
+    font-family: 'Tahoma';
     height: 120%;
     padding-top: 110px;
     text-align: center;
@@ -122,9 +118,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
-    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
-
-    /*font-family: 'Brush Script MT', cursive;*/
+    font-family: 'Tahoma';
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -132,9 +126,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .form-section {
-    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
-
-    /*font-family: 'Brush Script MT', cursive;*/
+    font-family: 'Tahoma';
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -142,9 +134,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .form-header {
-    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
-
-    /*font-family: 'Brush Script MT', cursive;*/
+    font-family: 'Tahoma';
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
@@ -154,7 +144,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .form-header2 {
-    font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+    font-family: 'Tahoma';
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;

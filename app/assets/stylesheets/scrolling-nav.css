@@ -47,7 +47,7 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url('intro-bg.jpg') no-repeat center center;
+    background: url('sfondo1_centrale-bg.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -149,7 +149,7 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url('pen-tablet.jpg') no-repeat center center;
+    background: url('sfondo1-bg.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -159,6 +159,6 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 50px;
     text-align: center;
     color: #404040;
-    background: url('pen-tablet.jpg') no-repeat center center;
+    /*background: url('sfondo1-bg.jpg') no-repeat center center;*/
     background-size: cover;
 }

@@ -34,7 +34,8 @@ class ModulosController < ApplicationController
 
     respond_to do |format|
       if @modulo.save
-        Modulonotifier.invio(@modulo).deliver_later
+        SendEmailJob.set(wait: 10.seconds).perform_later(@modulo)
+        #Modulonotifier.invio(@modulo).deliver_later
         format.html { redirect_to :controller => 'home', :action => 'index'}
         format.json { render :show, status: :created, location: @modulo }
       else

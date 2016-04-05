@@ -1,28 +1,9 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+Landing Page of Alumni Polito
 
 * System dependencies
 
-* Configuration
+* Ruby version --> ruby 2.1.5p273 (2014-11-13 revision 48405) [x86_64-linux]
 
-* Database creation
+* Database version --> mysql Ver 14.14 Distrib 5.5.44, for debian-linux-gnu (x86_64) using readline 6.2
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Rails Version --> 4.2.0 

@@ -119,10 +119,12 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section {
     font-family: 'Tahoma';
-    height: 100%;
-    padding-top: 150px;
+    height: 50%;
+    /*padding-top: 150px;*/
     text-align: center;
-    /*background: #eee;*/
+    /*background: url('banner-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background: #eee;*/    
 }
 
 .form-section {

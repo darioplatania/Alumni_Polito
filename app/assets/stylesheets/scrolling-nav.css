@@ -110,10 +110,10 @@ of those sections to manage the look and feel of the site. */
 .program-section {
     font-family: 'Tahoma';
     height: 120%;
-    padding-top: 110px;
+    padding-top: 120px;
     text-align: center;
     /*color: #f8f8f8;*/
-    background: url('programma-bg.jpg') no-repeat center center;
+    background: url('programma-bg.png') no-repeat center center;
     background-size: cover;
 }
 

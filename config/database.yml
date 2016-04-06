@@ -47,6 +47,6 @@ production:
   pool: 5
   timeout: 5000
   username: root
-  password: california
+  password: x1x1california
   socket: /var/run/mysqld/mysqld.sock #Linux
   #socket: /tmp/mysql.sock #iOS

@@ -114,13 +114,23 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     /*color: #f8f8f8;*/
     background: url('programma-bg.jpg') no-repeat center center;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .contact-section {
     font-family: 'Tahoma';
     height: 50%;
-    /*padding-top: 150px;*/
+    padding-top: 50px;
+    text-align: center;
+    /*background: url('banner-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background: #eee;*/
+}
+
+.partner-section {
+    font-family: 'Tahoma';
+    height: 50%;
+    padding-top: 100px;
     text-align: center;
     /*background: url('banner-bg.jpg') no-repeat center center;
     background-size: cover;
@@ -159,3 +169,19 @@ of those sections to manage the look and feel of the site. */
 .second-box{padding:10px; background:#c1eff9;}
 .third-box{padding:10px;background:#dfc1f9;}
 .fourth-box{padding:10px;background:#b6c2fb;}
+
+.first-patners-box{padding:10px;background:#c1eff9;}
+.second-patners-box{padding:10px; background:#dfc1f9;}
+
+
+.link_blue{
+  color: #0000cf; // blu classico, default
+  &:visited {
+    color: #0000cf // viola classico
+  }
+  &:hover {
+    color: #0000cf; // blu classico
+    background-color: #000fff;
+  }
+
+}

@@ -34,8 +34,6 @@ gem 'activeadmin', '~> 1.0.0.pre2'
 gem 'devise'
 gem 'delayed_job_active_record'
 gem 'daemons'
-
-gem 'jquery-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

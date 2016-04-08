@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# the ruby server you deserve ;)
+gem 'puma', '~> 2.0'
 # MySql2 gem
 gem 'mysql2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

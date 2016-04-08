@@ -78,4 +78,14 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.active_job.queue_adapter = :delayed_job
+
+  config.action_mailer.smtp_settings  = {
+     address:        "smtp.gmail.com",
+     port:           587,
+     domain:         "gmail.com",
+     authentication: "plain",
+     user_name:      "dariopl91",
+     password:       "darioemarika",
+     enable_starttls_auto: true
+   }
 end

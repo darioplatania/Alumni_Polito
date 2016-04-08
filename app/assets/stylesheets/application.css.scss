@@ -1,0 +1,190 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+/*INIZIO INTRO DEFAULT*/
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+/*FINE INTRO DEFAULT*/
+
+/*INIZIO INSERIMENTO FATTO DA DARIO DALLA LANDING PAGE*/
+.intro-header {
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    /*font-family: 'Brush Script MT', cursive;*/
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('sfondo1_centrale-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+/*FINE INSERIMENTO FATTO DA DARIO DALLA LANDING PAGE*/
+
+.about-section {
+    font-family: 'Tahoma';
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    /*background: url('banner-bg.jpg') no-repeat center center;
+    background-size: cover;*/
+}
+
+.program-section {
+    font-family: 'Tahoma';
+    height: 120%;
+    padding-top: 120px;
+    text-align: center;
+    /*color: #f8f8f8;*/
+    background: url('programma-bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+.contact-section {
+    font-family: 'Tahoma';
+    height: 50%;
+    padding-top: 50px;
+    text-align: center;
+    /*background: url('banner-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background: #eee;*/
+}
+
+.partner-section {
+    font-family: 'Tahoma';
+    height: 50%;
+    padding-top: 100px;
+    text-align: center;
+    /*background: url('banner-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background: #eee;*/
+}
+
+.form-section {
+    font-family: 'Tahoma';
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.form-header {
+    font-family: 'Tahoma';
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('sfondo1-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.form-header2 {
+    font-family: 'Tahoma';
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #404040;
+    /*background: url('sfondo1-bg.jpg') no-repeat center center;*/
+    background-size: cover;
+}
+
+.first-box{padding:10px;background:#f9eec1;}
+.second-box{padding:10px; background:#c1eff9;}
+.third-box{padding:10px;background:#dfc1f9;}
+.fourth-box{padding:10px;background:#b6c2fb;}
+
+.first-patners-box{padding:10px;background:#c1eff9;}
+.second-patners-box{padding:10px; background:#dfc1f9;}
+
+
+.link_blue{
+  color: #0000cf; // blu classico, default
+  &:visited {
+    color: #0000cf // viola classico
+  }
+  &:hover {
+    color: #0000cf; // blu classico
+    background-color: #000fff;
+  }
+
+}

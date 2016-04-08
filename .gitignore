@@ -13,8 +13,8 @@
 /tmp
 
 # Ignore user-defined files
-/config/database.yml
-/config/secrets.yml
+config/database.yml
+config/secrets.yml
 
 /public/assets
 

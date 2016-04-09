@@ -101,10 +101,10 @@ of those sections to manage the look and feel of the site. */
 .about-section {
     font-family: 'Tahoma';
     height: 100%;
-    padding-top: 150px;
+    padding-top: 120px;
     text-align: center;
-    /*background: url('banner-bg.jpg') no-repeat center center;
-    background-size: cover;*/
+    background: url('about-bg.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .program-section {
@@ -113,7 +113,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 120px;
     text-align: center;
     /*color: #f8f8f8;*/
-    background: url('programma-bg.png') no-repeat center center;
+    background: url('programma-bg.jpg') no-repeat center center;
     background-size: cover;
 }
 

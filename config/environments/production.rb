@@ -80,7 +80,7 @@ Rails.application.configure do
   config.active_job.queue_adapter = :delayed_job
 
   #Configurazione E-mail
-config.action_mailer.default_url_options = { :host => 'https://alumnipolito.fileshute.com/'}
+config.action_mailer.default_url_options = { :host => '***'}
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.perform_deliveries = true
 config.action_mailer.raise_delivery_errors = true
@@ -90,8 +90,8 @@ config.action_mailer.smtp_settings  = {
    port:           587,
    domain:         "gmail.com",
    authentication: "plain",
-   user_name:      "dariopl91",
-   password:       "darioemarika",
+   user_name:      "***",
+   password:       "***",
    enable_starttls_auto: true
  }
 

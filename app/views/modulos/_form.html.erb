@@ -11,8 +11,9 @@
 <div>
   <%= form_for(@modulo) do |f| %>
     <% if @modulo.errors.any? %>
-      <div id="error_explanation">
-        <h2><%= pluralize(@modulo.errors.count, "error") %> prohibited this modulo from being saved:</h2>
+    <div class="alert alert-danger" role="alert">
+      <h4>Attenzione: <%= @modulo.errors.count%> errore/i presente/i.</h4>
+      <h4>Occorre correggere i seguenti campi:</h4>
 
         <ul>
         <% @modulo.errors.full_messages.each do |message| %>

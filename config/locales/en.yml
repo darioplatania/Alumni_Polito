@@ -42,6 +42,8 @@ en:
               invalid: "Dati Personali - Data di Nascita non ha un formato valido"
             luogo:
               blank: "Inserire il Comune di Nascita"
+            indirizzo:
+              blank: "Inserire l'Indirizzo"
             cap:
               blank: "CAP non può essere vuoto"
             citta:

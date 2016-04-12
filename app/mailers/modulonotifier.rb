@@ -3,7 +3,7 @@ class Modulonotifier < ApplicationMailer
     @modulo = modulo
     @greeting = "Distinti Saluti"
     if Rails.env.production?
-      mail to: ENV["USER"], subject: 'Nuovo Modulo Adesione Compilato'
+      mail to: "polito.alumni@gmail.com", subject: 'Nuovo Modulo Adesione Compilato'
     else
       mail to: "dariopl91@gmail.com", subject: 'Nuovo Modulo Adesione Compilato'
     end

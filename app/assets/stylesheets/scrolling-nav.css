@@ -119,25 +119,25 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section {
     font-family: 'Tahoma';
-    height: 100%;
-    padding-top: 150px;
+    height: 55%;
+    padding-top: 50px;
     text-align: center;
-    background: url('contatti-01.jpg') no-repeat center center;
+    background: url('sfondo_contatti.jpg') no-repeat center center;
     background-size: cover;
     /*background: #eee;*/
 }
 
-/*
+
 .partner-section {
     font-family: 'Tahoma';
     height: 50%;
-    padding-top: 100px;
+    padding-top: 70px;
     text-align: center;
-    background: url('banner-bg.jpg') no-repeat center center;
+    background: url('sfondo_partner.jpg') no-repeat center center;
     background-size: cover;
-    background: #eee;
+    /*background: #eee;*/
 }
-*/
+
 .form-section {
     font-family: 'Tahoma';
     height: 100%;

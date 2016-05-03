@@ -8,7 +8,7 @@ class Modulo < ActiveRecord::Base
   validates :cap, presence: true
   validates :citta, presence: true
   validates :telefono, presence: true,allow_blank: true, numericality: true,length: {minimum: 8, maximum: 12}
-  validates :cellulare, presence: true,allow_blank: true, numericality: true,length: {minimum: 8, maximum: 12}
+  validates :cellulare, presence: true,allow_blank: true, numericality: true,length: {minimum: 9, maximum: 11}
   validate :telefono_or_cellulare
   validates :assemblea, presence: true
   validates :cerimonia, presence: true

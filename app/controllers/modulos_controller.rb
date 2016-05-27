@@ -17,7 +17,10 @@ class ModulosController < ApplicationController
 
   # GET /modulos/new
   def new
-    @modulo = Modulo.new
+    respond_to do |format|
+    format.html { redirect_to :controller => 'home', :action => 'index' }
+    end
+    #@modulo = Modulo.new
   end
 
   # GET /modulos/1/edit
